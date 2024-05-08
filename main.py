@@ -1,4 +1,4 @@
-from selenium import webdriver
+ในfrom selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.by import By
 # from datetime import datetime
@@ -34,7 +34,7 @@ def app_test():
         try:
             for _ in range(5):
                 # vote for yada
-                yada_select = driver.find_element(By.ID, "PDI_answer61165597") # PDI_answer61165598
+                yada_select = driver.find_element(By.ID, "PDI_answer61165598") # PDI_answer61165597
                 driver.execute_script("arguments[0].click();", yada_select)
                 driver.implicitly_wait(1)
 
