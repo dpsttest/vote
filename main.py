@@ -1,4 +1,4 @@
-ในfrom selenium import webdriver
+from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.by import By
 # from datetime import datetime
